@@ -1,6 +1,4 @@
 LINEAR PROGRAMMING LIBRARY
-Felix Newport-Mangell
-fn17351@bristol.ac.uk
 Readme.txt
 
 This readme is intended to provide the user with information on usage of the linear programming problem solver linprog.py.

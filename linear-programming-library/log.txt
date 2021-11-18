@@ -1,5 +1,4 @@
 LINEAR PROGRAMMING LIBRARY
-Felix Newport-Mangell
 log file
 
 Objective equation: max z = 60.0*x1 + 90.0*x2 + 300.0*x3

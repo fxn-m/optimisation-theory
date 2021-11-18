@@ -1,5 +1,4 @@
 LINEAR PROGRAMMING LIBRARY
-Felix Newport-Mangell
 results file
 
 

@@ -63,7 +63,7 @@ def state_problem(obj_coeffs, constraint_rels, A, b):
     print('\nSubject to the constraints:')
 
     with open('log.txt', "w") as log_file:
-        log_file.write('LINEAR PROGRAMMING LIBRARY\nFelix Newport-Mangell\nlog file\n\n')
+        log_file.write('LINEAR PROGRAMMING LIBRARY\nlog file\n\n')
         log_file.write('Objective equation: ' + ('{} z = ').format(obj) + string)
         log_file.write('\n\nSubject to the constraints:')
         log_file.close()
@@ -383,7 +383,7 @@ for i in range(len(obj_coeffs)):
         string += str(obj_coeffs[i]) + '*x{}'.format(i + 1)
 
 with open('result.txt', "w") as results_file:
-    results_file.write('LINEAR PROGRAMMING LIBRARY\nFelix Newport-Mangell\nresults file\n\n')
+    results_file.write('LINEAR PROGRAMMING LIBRARY\nresults file\n\n')
     results_file.write('\n' + 'Final Tableau \n' + result_str + '\n')
     results_file.write(
         ''.join(['\nOptimal solution: ', ', '.join(strings), '\nObjective equation: ', '{} z = '.format(obj), string,
