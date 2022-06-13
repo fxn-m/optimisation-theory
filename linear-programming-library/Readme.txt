@@ -4,7 +4,6 @@ Readme.txt
 This readme is intended to provide the user with information on usage of the linear programming problem solver linprog.py.
 
 
-
 Running linprog.py
 ___________________
 
